@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Shopping Website</title>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="logo2.jpg" alt="Shopcart Logo">
+   
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Delivery</a></li>
+        </ul>
+      </nav>
+    
+      <div class="actions">
+        <a href="#" class="btn">Account</a>
+        <a href="Page3.html" class="btn">Cart</a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1>Shoes For You!</h1>
+    </header>
+
+    <!-- Filter Buttons
+    <div class="filter-bar">
+      <button class="filter-btn" data-filter="all">Show All</button>
+      <button class="filter-btn" data-filter="Boots">Boots</button>
+      <button class="filter-btn" data-filter="Trainers">Trainers</button>
+      <button class="filter-btn" data-filter="Slippers">Slippers</button>
+      <button class="filter-btn" data-filter="Heels">Heels</button>
+    </div>
+  -->
+    
+    <div class="product-grid">
+      <div class="product-card" data-category="Heels">
+      <a href="produkti1.html">  <img  id="displayImage" src="heels1.jpg" alt="Heels">
+        <h2>White pearl heels</h2></a>
+        <p>36  37  38</p>
+        <div class="price">$559.00</div></a>
+        <div class="rating">★★★★★ (200)</div>
+        <button  onclick="saveImage()" class="add-to-cart">Add to Cart</button>
+      </div>
+
+  
+
+      
+      <div class="product-card" data-category="Heels">
+      <a href="produkti2.html">  <img src="heels3.jpg" alt="Heels">
+        <h2>AirPods Max</h2>
+        <p>High-fidelity audio</p>
+        <div class="price">$559.00</div>
+        <div class="rating">★★★★★ (200)</div></a>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+     
+      <div class="product-card" data-category="Heels">
+        <img src="heels4.jpg" alt="Heels">
+        <a href="produkti3.html"><h2>AirPods Max</h2>
+        <p>High-fidelity audio</p>
+        <div class="price">$559.00</div></a>
+        <div class="rating">★★★★★ (200)</div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      
+      <div class="product-card" data-category="Heels">
+       <a href="produkti4.html"> <img src="heels5.jpg" alt="Heels">
+        <h2>AirPods Max</h2>
+        <p>High-fidelity audio</p>
+        <div class="price">$559.00</div></a>
+        <div class="rating">★★★★★ (200)</div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+
+
+
+      <div class="product-card" data-category="Boots">
+       <a href="produkti5.html"> <img src="boots1.jpg" alt="Wired Headphones">
+        <h2>Wired Headphones</h2>
+        <p>Reliable wired performance</p>
+        <div class="price">$29.00</div></a>
+        <div class="rating">★★★★☆ (121)</div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+     
+      <div class="product-card" data-category="Heels">
+        <a href="produkti6.html"><img src="heels2.jpg" alt="Heels">
+        <h2>AirPods Max</h2>
+        <p>High-fidelity audio</p>
+        <div class="price">$559.00</div></a>
+        <div class="rating">★★★★★ (200)</div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+     
+
+                <div class="product-card" data-category="Boots">
+                  
+              <a href="produkti7.html"><img src="boots2.jpg" alt="Heels">
+                  <h2>AirPods Max</h2>
+                  <p>High-fidelity audio</p>
+                  <div class="price">$559.00</div></a>
+                  <div class="rating">★★★★★ (200)</div>
+                  <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                
+
+           
+                    <div class="product-card" data-category="Boots">
+                   <a href="produkti8.html">  <img src="boots3.jpg" alt="Heels">
+                      <h2>AirPods Max</h2>
+                      <p>High-fidelity audio</p>
+                      <div class="price">$559.00</div></a> 
+                      <div class="rating">★★★★★ (200)</div>
+                      <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                
+                    <div class="product-card" data-category="Boots">
+                    <a href="produkti9.html">  <img src="boots4.jpg" alt="Heels">
+                      <h2>AirPods Max</h2>
+                      <p>High-fidelity audio</p>
+                      <div class="price">$559.00</div></a>
+                      <div class="rating">★★★★★ (200)</div>
+                      <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                        
+                  
+                                               
+                        <div class="product-card" data-category="Trainers">
+                       <a href="produkti10.html">  <img src="trainers4.jpg" alt="Heels">
+                         <h2>AirPods Max</h2>
+                         <p>High-fidelity audio</p>
+                         <div class="price">$559.00</div></a> 
+                         <div class="rating">★★★★★ (200)</div>
+                          <button class="add-to-cart">Add to Cart</button>
+                            </div>
+
+                            <div class="product-card" data-category="Boots">
+                              <a href="produkti11.html">   <img src="boots5.jpg" alt="Heels">
+                              <h2>AirPods Max</h2>
+                              <p>High-fidelity audio</p>
+                              <div class="price">$559.00</div></a> 
+                              <div class="rating">★★★★★ (200)</div>
+                              <button class="add-to-cart">Add to Cart</button>
+                            </div>
+
+
+
+                            <div class="product-card" data-category="Traniners">
+                              <a href="produkti10.html">  <img src="trainers4.jpg" alt="Wireless Earbuds">
+                              <h2>Wireless Earbuds</h2>
+                              <p>Comfortable fit and portability</p>
+                              <div class="price">$49.00</div></a> 
+                              <div class="rating">★★★★☆ (150)</div>
+                              <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                      
+                      
+                         
+                              <div class="product-card" data-category="Traniners">
+                                <a href="produkti10.html">   <img src="heels1.jpg" alt="Heels">
+                                <h2>AirPods Max</h2>
+                                <p>High-fidelity audio</p>
+                                <div class="price">$559.00</div></a> 
+                                <div class="rating">★★★★★ (200)</div>
+                                <button class="add-to-cart">Add to Cart</button>
+                              </div>
+                      
+                        
+                                  <div class="product-card" data-category="Traniners">
+                                    <a href="produkti10.html"><img src="trainers1.jpg" alt="Heels">
+                                    <h2>AirPods Max</h2>
+                                    <p>High-fidelity audio</p>
+                                    <div class="price">$559.00</div></a>    
+                                    <div class="rating">★★★★★ (200)</div>
+                                    <button class="add-to-cart">Add to Cart</button>
+                                  </div>
+                      
+                                  
+                                      <div class="product-card" data-category="Trainers">
+                                        <a href="produkti10.html">     <img src="trainers2.jpg" alt="Heels">
+                                        <h2>AirPods Max</h2>
+                                        <p>High-fidelity audio</p>
+                                        <div class="price">$559.00</div></a>
+                                        <div class="rating">★★★★★ (200)</div>
+                                        <button class="add-to-cart">Add to Cart</button>
+ </div>
+                      
+                                     
+  <div class="product-card" data-category="Trainers">
+    <a href="produkti10.html"> <img src="trainers3.jpg" alt="Heels">
+<h2>AirPods Max</h2>
+<p>High-fidelity audio</p>
+<div class="price">$559.00</div></a>
+<div class="rating">★★★★★ (200)</div>
+ <button class="add-to-cart">Add to Cart</button>
+   </div>
+                      
+  
+                                           
+  <div class="product-card" data-category="Trainers">
+    <a href="produkti10.html"> <img src="trainers5.jpg" alt="Heels">
+   <h2>AirPods Max</h2>
+   <p>High-fidelity audio</p>
+   <div class="price">$559.00</div></a>
+   <div class="rating">★★★★★ (200)</div>
+    <button class="add-to-cart">Add to Cart</button>
+      </div>     
+   
+
+
+   <div class="product-card" data-category="Slippers">
+    <a href="produkti10.html"> <img src="slippers1.jpg" alt="slippers">
+<h2>Slippers</h2>
+<p>Comfy slippes</p>
+<div class="price">$12.0</div></a>
+<div class="rating">★★★★★ (200)</div>
+<button class="add-to-cart">Add to cart</button>
+   </div>
+
+   <div class="product-card" data-category="Slippers">
+    <a href="produkti10.html"><img src="slippers2.jpg" alt="slippers">
+    <h2>Slippers</h2>
+    <p>Comfy slippes</p>
+    <div class="price">$12.0</div></a> 
+    <div class="rating">★★★★★ (200)</div>
+    <button class="add-to-cart">Add to cart</button>
+       </div>
+
+       <div class="product-card" data-category="Slippers">
+        <a href="produkti10.html"> <img src="slippers3.jpg" alt="slippers">
+        <h2>Slippers</h2>
+        <p>Comfy slippes</p>
+        <div class="price">$12.0</div></a>
+        <div class="rating">★★★★★ (200)</div>
+        <button class="add-to-cart">Add to cart</button>
+           </div>
+
+           <div class="product-card" data-category="Slippers">
+            <a href="produkti10.html"> <img src="slippers4.jpg" alt="slippers">
+            <h2>Slippers</h2>
+            <p>Comfy slippes</p>
+            <div class="price">$12.0</div></a> 
+            <div class="rating">★★★★★ (200)</div>
+            <button class="add-to-cart">Add to cart</button>
+               </div>
+
+               <div class="product-card" data-category="Slippers">
+                <a href="produkti10.html">  <img src="slippers5.jpg" alt="slippers">
+                <h2>Slippers</h2>
+                <p>Comfy slippes</p>
+                <div class="price">$12.0</div></a> 
+                <div class="rating">★★★★★ (200)</div>
+                <button class="add-to-cart">Add to cart</button>
+                   </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+       
+
+
+           
+
+   
+              
+
+                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const products = document.querySelectorAll(".product-card");
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const filter = button.getAttribute("data-filter");
+
+      products.forEach((product) => {
+        const categories = product.getAttribute("data-category").split(" ");
+
+        if (filter === "all" || categories.includes(filter)) {
+          product.classList.remove("hidden");
+        } else {
+          product.classList.add("hidden");
+        }
+      });
+    });
+  });
+});
+
+
+
+
+const addToCart = () => {
+    // Get product details
+    const productImage = document.querySelector('.fotodiv img').src; // Image URL
+    const productName = document.querySelector('.tedhenat h1').textContent; // Product name
+    const productPrice = parseFloat(document.getElementById('total').textContent); // Total price
+    const productQuantity = parseInt(document.getElementById('counter').textContent); // Quantity
+
+    // Create product object
+    const product = {
+      name: productName,
+      image: productImage,
+      price: productPrice,
+      quantity: productQuantity,
+    };
+
+    // Retrieve the existing cart or initialize an empty array
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    // Add the new product to the cart
+    cart.push(product);
+
+    // Save the updated cart back to local storage
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Redirect to the cart page
+    window.location.href = 'page2.html';
+  };
+
+  // Attach event listener to the "Add to Cart" button
+  document.querySelector('.btn2').addEventListener('click', addToCart);
+
+
+
+
+  const saveImage = () => {
+    const imageElement = document.querySelector('.fotodiv img'); // Select the image
+    const imageUrl = imageElement.src; // Get the image URL
+    localStorage.setItem('savedImage', imageUrl); // Save the URL in local storage
+    window.location.href = 'page3.html'; // Redirect to the next page
+  };
+
+  // Attach event listener to the "Add to Cart" button
+  document.querySelector('.btn2').addEventListener('click', saveImage);
+
+</script>
+  
+</body>
+</html>
+
+
